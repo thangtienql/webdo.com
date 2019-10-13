@@ -230,6 +230,105 @@
     display: inline-block;
     transition: .15s ease-in-out;
 }
+.solution-wrapper h2{
+    color: #2c2c51;
+    font-weight: 700;
+    line-height: 1.15;
+    font-size: 25px;
+}
+.solution-wrapper p{
+    color: #677294;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.solution-item-inner{
+    position: relative;
+}
+.solution-item-inner .solution-item-img{
+    border: 2px dashed #e50914;
+    border-radius: 6px;
+    display: inline-block;
+    width: 230px;
+    height: 250px;
+    line-height: 250px;
+    margin: 40px 0;
+    position: relative;
+    box-shadow: 0 1px 30px 0 rgba(55,125,162,.2);
+}
+.solution-item-inner .solution-item-img img{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    
+}
+.solution-item h4{
+    color: #2c2c51;
+    font-weight: 700;
+    line-height: 21px;
+    font-size: 25px;
+}
+.solution-item p{
+    color: #677294;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.project-wrapper h2{
+    color: #2c2c51;
+    font-weight: 700;
+    line-height: 1.15;
+    font-size: 25px;
+}
+.process-wrapper p{
+    color: #677294;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.theme-group{
+    border: none;
+    position: relative;
+    top: 0;
+    box-shadow: 0 10px 100px 0 rgb(190, 183, 181);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: .3s;
+}
+.theme-group:hover{
+    top: -10px;
+}
+.theme-group__decs{
+    text-align: center;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+}
+.theme-group__decs a{
+    color: #051441 !important;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.theme-group__price{
+    color: #e50914 !important;
+    line-height: 23px;
+    font-size: 18px;
+}
+.viewmore{
+    font-family: 'Poppins', sans-serif !important;
+    background: #e50914 !important;
+    color: #fff !important;
+}
+.viewmore:hover{
+    border: 1px solid #e50914 !important ;
+    background: #fff !important;
+    color: #e50914 !important;
+    transition: .7s;
+}
 
 @media (min-width: 992px){
 .navbar-expand-lg .navbar-nav .nav-link {
