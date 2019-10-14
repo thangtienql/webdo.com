@@ -143,7 +143,7 @@
     top: 30px;
     left: 50px;
     z-index: 1;
-    max-height: 500px;
+    max-height: 528px;
 }
 .d-flex{
     display: flex !important;
@@ -330,9 +330,106 @@
     transition: .7s;
 }
 
+.partner-wrapper h2{
+    color: #2c2c51;
+    font-weight: 700;
+    line-height: 1.15;
+    font-size: 25px;
+    margin-top: 5rem;
+}
+.partner-wrapper p{
+    color: #677294;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.client-item__inner{
+    border: 1px solid #ebebeb;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 50px 10px;
+    width: calc(100% / 4);
+}
+.client-item__logo{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.client-item__logo:hover{
+    -webkit-filter: grayscale(0) !important;
+    filter: grayscale(0) !important;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+/* footer */
+.footer{
+    background: #020230;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.footer h4{
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 700;
+}
+.footer h1{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.footer p{
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.contact-item__icon{
+    width: 60px;
+}
+
+.contact-item__icon i{
+    font-size: 3.8rem;
+}
+.footer-widget{
+    border-top: 1px dashed #fff;
+}
+.footer-widget .footer-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.widget_text ul{
+    list-style-type: none;
+}
+.footer-widget .textwidget li i {
+    margin-right: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.copyright{
+    border-top: 1px dashed #fff;
+}
+.copyright p{
+    font-size: 19px;
+}
+
+
 @media (min-width: 992px){
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2.5rem;
     padding-left: .5rem;
 }
 }
+
+@media (max-width: 992px){
+    .partner-wrapper{
+        display: none;
+    }
+    .contact-item{
+        display: none !important;
+    }
+}
+
