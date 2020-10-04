@@ -299,6 +299,7 @@
 }
 .theme-group:hover{
     top: -10px;
+    transition: .3s;
 }
 .theme-group__decs{
     text-align: center;
